@@ -3,6 +3,7 @@ import NavBarForm from "./components/NavBarForm";
 import Sidebar from "./components/Sidebar";
 import Content from "./components/Content";
 import Loader from "./components/Loader";
+import ContentHooks from "./components/ContentHooks";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* <NavBarSimple /> */}
       <NavBarForm />
       <Sidebar />
-      <Content />
+      <ContentHooks />
+      {/* <Content /> */}
       <Loader />
     </div>
   );
